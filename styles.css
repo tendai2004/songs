@@ -64,5 +64,12 @@ footer {
 }
 
 footer a {
-  color: white;
+  color: #00acee; /* Light blue for visibility */
+  text-decoration: none;
+  font-weight: bold;
+}
+
+footer a:hover {
+  text-decoration: underline;
+  color: #ffffff;
 }
