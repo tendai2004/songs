@@ -12,6 +12,9 @@ nav {
   position: sticky;
   top: 0;
   z-index: 100;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
 }
 
 nav ul {
@@ -33,6 +36,7 @@ nav ul li a.active {
   text-decoration: underline;
   color: #00acee;
 }
+
 
 header {
   background: #111;
