@@ -6,38 +6,6 @@ body {
   color: #333;
 }
 
-/* NAVBAR aligned to right 
-.navbar {
-  background: #000;
-  padding: 1rem 2rem;
-  display: flex;
-  justify-content: flex-end;
-  align-items: center;
-  position: sticky;
-  top: 0;
-  z-index: 1000;
-}
-
-.nav-links {
-  list-style: none;
-  display: flex;
-  gap: 2rem;
-  margin: 0;
-  padding: 0;
-}
-
-.nav-links li a {
-  color: white;
-  text-decoration: none;
-  font-weight: bold;
-}
-
-.nav-links li a:hover,
-.nav-links li a.active {
-  color: #00acee;
-  text-decoration: underline;
-}
-*/
 header {
   background: blue;
   color: white;
@@ -65,6 +33,7 @@ main {
 
 .song h3 {
   margin-top: 0;
+  font-size: 1.1rem;
 }
 
 audio {
@@ -90,6 +59,6 @@ audio {
 footer {
   text-align: center;
   padding: 1rem;
-  background: #111;
+  background: blue;
   color: white;
 }
